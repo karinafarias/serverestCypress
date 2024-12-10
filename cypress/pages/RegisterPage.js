@@ -10,6 +10,9 @@ class RegisterPage {
         },
         TEXTS:{
             CADASTRO_MESSAGE: ()=>cy.get('a.alert-link')
+        },
+        CHECKBOXES:{
+            IS_ADMIN: ()=>cy.get('input[data-testid="checkbox"]')
         }
 
     }
@@ -31,6 +34,10 @@ class RegisterPage {
 
     getCadastroMessage(){
         return this.elements.TEXTS.CADASTRO_MESSAGE();
+    }
+
+    checkIsAdmin(){
+        this.elements.CHECKBOXES.IS_ADMIN().click();
     }
 
 }
