@@ -16,6 +16,10 @@ class LoginPage {
         this.elements.LINKS.CADASTRO().click();
     }
 
+    clickEntrar(){
+        this.elements.BUTTONS.ENTRAR().click();
+    }
+
     setEmail(email){
         this.elements.INPUTS.EMAIL().type(email);
     }
@@ -23,6 +27,7 @@ class LoginPage {
     setSenha(password){
         this.elements.INPUTS.SENHA().type(password);
     }
+
 
 }
 
