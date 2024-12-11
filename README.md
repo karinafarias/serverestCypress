@@ -17,9 +17,25 @@ This project is a Cypress-based testing framework designed to test both front-en
 
 The project is organized as follows:
 
-cypress/ ├── e2e/ # End-to-end test cases │ ├── endpoint/ # API endpoint tests │ │ ├── login.cy.js # Tests for login API │ │ └── user.cy.js # Tests for user-related API │ ├── front/ # Front-end tests │ ├── register.cy.js # Tests for user registration UI │ └── search.cy.js # Tests for search functionality ├── fixtures/ # Test data for reusable scenarios │ ├── endpointBody/ # JSON payloads for API requests │ │ ├── loginAdmin.json # Admin login payload │ │ ├── registerUser.json # User registration payload │ │ └── productSearch.json # Payload for product search │ └── loginUser.json # User login payload ├── pages/ # Page Object Models for UI tests │ ├── LoginPage.js # Methods and selectors for login page │ ├── RegisterPage.js # Methods and selectors for registration page │ └── SearchPage.js # Methods and selectors for search page └── support/ # Cypress-specific custom commands or helpers cypress.config.js # Cypress configuration file package.json # Node.js dependencies and scripts
-
----
+cypress/ 
+├── e2e/ # End-to-end test cases 
+│ ├── endpoint/ # API endpoint tests 
+│ │ ├── login.cy.js # Tests for login API 
+│ │ └── user.cy.js # Tests for user-related API 
+│ ├── front/ # Front-end tests 
+│ ├── register.cy.js # Tests for user registration UI 
+│ └── search.cy.js # Tests for search functionality 
+├── fixtures/ # Test data for reusable scenarios 
+│ ├── endpointBody/ # JSON payloads for API requests 
+│ │ ├── loginAdmin.json # Admin login payload 
+│ │ ├── registerUser.json # User registration payload 
+│ │ └── productSearch.json # Payload for product search 
+│ └── loginUser.json # User login payload 
+├── pages/ # Page Object Models for UI tests 
+│ ├── LoginPage.js # Methods and selectors for login page 
+│ ├── RegisterPage.js # Methods and selectors for registration page 
+│ └── SearchPage.js # Methods and selectors for search page 
+└── support/ # Cypress-specific custom commands or helpers cypress.config.js 
 
 ## Setup Instructions
 
