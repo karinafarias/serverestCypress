@@ -16,7 +16,7 @@ This project is a Cypress-based testing framework designed to test both front-en
 ## Project Structure
 
 The project is organized as follows:
-
+```
 cypress/ 
 ├── e2e/ # End-to-end test cases 
 │ ├── endpoint/ # API endpoint tests 
@@ -36,7 +36,7 @@ cypress/
 │ ├── RegisterPage.js # Methods and selectors for registration page 
 │ └── SearchPage.js # Methods and selectors for search page 
 └── support/ # Cypress-specific custom commands or helpers cypress.config.js 
-
+```
 ## Setup Instructions
 
 To get started with this project, follow these steps:
