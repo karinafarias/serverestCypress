@@ -1,3 +1,4 @@
 node_modules/*
-reports/*
-screenshots/*
+cypress/reports/*
+cypress/screenshots/*
+package-lock.json
